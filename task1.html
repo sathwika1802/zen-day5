@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        users=[
+            {"id":1,"name":"raj","city":"hyderabad","state":"telangana"},
+            {"id":2,"name":"koti","city":"guntur","state":"Andhra pradesh"},
+            {"id":3,"name":"pradeep","city":"banglore","state":"karnataka"},
+            {"id":4,"name":"luther","city":"mumbai","state":"maharashtra"},
+        ]
+        //for loop
+        for(var i=0;i<users.length;i++){
+                console.log(users[i])
+                
+            }
+            //for of loop
+            for(var obj of users){
+             console.log(obj)
+            }
+            //for in loop
+            for(var index in users){
+                console.log(users[index])
+            }
+    </script>
+</body>
+</html>
